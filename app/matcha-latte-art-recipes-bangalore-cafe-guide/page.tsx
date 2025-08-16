@@ -62,7 +62,7 @@ export default function MatchaLatteArtGuide() {
       {/* Hero Section */}
       <section className="relative w-full h-[75vh] overflow-hidden">
         <Image
-          src="/images/matcha-vs-coffee.svg"
+          src="/images/matcha-latte-art.svg"
           alt="Beautiful matcha latte art and creative matcha drinks presentation from professional cafe"
           fill
           className="object-cover"

@@ -1,66 +1,89 @@
-<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#FAFAFA"/>
-  <text x="400" y="40" text-anchor="middle" font-family="serif" font-size="28" fill="#333">
-    Matcha vs Coffee: Energy Comparison
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#F8F9FA"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="serif" font-size="32" font-weight="bold" fill="#2E2E2E">
+    Matcha vs Coffee: Health Benefits
   </text>
   
-  <!-- Matcha Side -->
-  <rect x="50" y="80" width="320" height="350" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2"/>
-  <text x="210" y="110" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#2E7D32">
+  <!-- Left Side - Matcha -->
+  <rect x="50" y="80" width="300" height="280" fill="#E8F5E8" rx="15" stroke="#4CAF50" stroke-width="3"/>
+  
+  <!-- Matcha Bowl -->
+  <circle cx="200" cy="140" r="35" fill="#2E7D32"/>
+  <circle cx="200" cy="135" r="30" fill="#4CAF50"/>
+  <circle cx="200" cy="130" r="25" fill="#81C784"/>
+  
+  <text x="200" y="190" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#2E7D32">
     🍵 Ceremonial Matcha
   </text>
   
-  <text x="70" y="150" font-family="sans-serif" font-size="14" fill="#2E7D32">
+  <!-- Matcha Benefits -->
+  <text x="70" y="220" font-family="sans-serif" font-size="13" fill="#2E7D32">
     ✓ 70mg caffeine (slow release)
   </text>
-  <text x="70" y="180" font-family="sans-serif" font-size="14" fill="#2E7D32">
-    ✓ 25-40mg L-theanine
+  <text x="70" y="240" font-family="sans-serif" font-size="13" fill="#2E7D32">
+    ✓ L-theanine for calm focus
   </text>
-  <text x="70" y="210" font-family="sans-serif" font-size="14" fill="#2E7D32">
+  <text x="70" y="260" font-family="sans-serif" font-size="13" fill="#2E7D32">
     ✓ 4-6 hours sustained energy
   </text>
-  <text x="70" y="240" font-family="sans-serif" font-size="14" fill="#2E7D32">
-    ✓ No crash (calm focus)
-  </text>
-  <text x="70" y="270" font-family="sans-serif" font-size="14" fill="#2E7D32">
+  <text x="70" y="280" font-family="sans-serif" font-size="13" fill="#2E7D32">
     ✓ 137x more antioxidants
   </text>
-  
-  <!-- Energy Graph for Matcha -->
-  <path d="M 70 320 Q 150 300 230 310 Q 310 320 350 325" stroke="#4CAF50" stroke-width="3" fill="none"/>
-  <text x="210" y="350" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">
-    Sustained Energy
+  <text x="70" y="300" font-family="sans-serif" font-size="13" fill="#2E7D32">
+    ✓ Reduces stress hormones
   </text>
   
-  <!-- Coffee Side -->
-  <rect x="430" y="80" width="320" height="350" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
-  <text x="590" y="110" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#E65100">
-    ☕ Coffee
+  <!-- Energy Line - Matcha -->
+  <path d="M 70 330 Q 150 320 230 325 Q 300 330 330 330" stroke="#4CAF50" stroke-width="4" fill="none"/>
+  <text x="200" y="350" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#2E7D32">
+    Steady Energy
   </text>
   
-  <text x="450" y="150" font-family="sans-serif" font-size="14" fill="#E65100">
-    • 95mg caffeine (rapid release)
+  <!-- Right Side - Coffee -->
+  <rect x="450" y="80" width="300" height="280" fill="#FFF3E0" rx="15" stroke="#FF9800" stroke-width="3"/>
+  
+  <!-- Coffee Cup -->
+  <rect x="580" y="115" width="40" height="50" fill="#5D4037" rx="5"/>
+  <ellipse cx="600" cy="115" rx="20" ry="8" fill="#8D6E63"/>
+  <rect x="620" y="125" width="8" height="20" fill="#5D4037" rx="4"/>
+  
+  <text x="600" y="190" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#E65100">
+    ☕ Regular Coffee
   </text>
-  <text x="450" y="180" font-family="sans-serif" font-size="14" fill="#E65100">
-    • 0mg L-theanine
+  
+  <!-- Coffee Drawbacks -->
+  <text x="470" y="220" font-family="sans-serif" font-size="13" fill="#E65100">
+    • 95mg caffeine (rapid spike)
   </text>
-  <text x="450" y="210" font-family="sans-serif" font-size="14" fill="#E65100">
-    • 2-3 hours with spikes
+  <text x="470" y="240" font-family="sans-serif" font-size="13" fill="#E65100">
+    • No L-theanine (anxiety risk)
   </text>
-  <text x="450" y="240" font-family="sans-serif" font-size="14" fill="#E65100">
-    • Significant afternoon crash
+  <text x="470" y="260" font-family="sans-serif" font-size="13" fill="#E65100">
+    • 2-3 hours with jitters
   </text>
-  <text x="450" y="270" font-family="sans-serif" font-size="14" fill="#E65100">
+  <text x="470" y="280" font-family="sans-serif" font-size="13" fill="#E65100">
     • Moderate antioxidants
   </text>
-  
-  <!-- Energy Graph for Coffee -->
-  <path d="M 450 320 L 500 290 L 550 300 L 600 310 L 650 340 L 730 370" stroke="#FF9800" stroke-width="3" fill="none"/>
-  <text x="590" y="350" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">
-    Energy Spikes & Crashes
+  <text x="470" y="300" font-family="sans-serif" font-size="13" fill="#E65100">
+    • Increases stress hormones
   </text>
   
-  <text x="400" y="470" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#888">
-    Experience the difference at our Koramangala location
+  <!-- Energy Line - Coffee -->
+  <path d="M 470 330 L 510 310 L 550 320 L 590 325 L 630 340 L 730 350" stroke="#FF9800" stroke-width="4" fill="none"/>
+  <text x="600" y="350" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#E65100">
+    Spikes &amp; Crashes
+  </text>
+  
+  <!-- VS Symbol -->
+  <circle cx="400" cy="200" r="30" fill="white" stroke="#666" stroke-width="2"/>
+  <text x="400" y="210" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#666">
+    VS
+  </text>
+  
+  <!-- Bottom Text -->
+  <text x="400" y="385" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#666">
+    Experience the difference at Mocha &amp; Matcha Cafe, Koramangala
   </text>
 </svg>

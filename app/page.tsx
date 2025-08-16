@@ -160,7 +160,7 @@ export default function BlogHomePage() {
             <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden h-full">
               <div className="relative h-64 overflow-hidden">
                 <Image
-                  src="/images/matcha-grades-comparison.svg"
+                  src="/images/matcha-latte-art.svg"
                   alt="Matcha latte art and creative recipes"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
