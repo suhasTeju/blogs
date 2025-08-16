@@ -1,0 +1,66 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#FAFAFA"/>
+  <text x="400" y="40" text-anchor="middle" font-family="serif" font-size="28" fill="#333">
+    Matcha vs Coffee: Energy Comparison
+  </text>
+  
+  <!-- Matcha Side -->
+  <rect x="50" y="80" width="320" height="350" fill="#E8F5E8" stroke="#4CAF50" stroke-width="2"/>
+  <text x="210" y="110" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#2E7D32">
+    🍵 Ceremonial Matcha
+  </text>
+  
+  <text x="70" y="150" font-family="sans-serif" font-size="14" fill="#2E7D32">
+    ✓ 70mg caffeine (slow release)
+  </text>
+  <text x="70" y="180" font-family="sans-serif" font-size="14" fill="#2E7D32">
+    ✓ 25-40mg L-theanine
+  </text>
+  <text x="70" y="210" font-family="sans-serif" font-size="14" fill="#2E7D32">
+    ✓ 4-6 hours sustained energy
+  </text>
+  <text x="70" y="240" font-family="sans-serif" font-size="14" fill="#2E7D32">
+    ✓ No crash (calm focus)
+  </text>
+  <text x="70" y="270" font-family="sans-serif" font-size="14" fill="#2E7D32">
+    ✓ 137x more antioxidants
+  </text>
+  
+  <!-- Energy Graph for Matcha -->
+  <path d="M 70 320 Q 150 300 230 310 Q 310 320 350 325" stroke="#4CAF50" stroke-width="3" fill="none"/>
+  <text x="210" y="350" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">
+    Sustained Energy
+  </text>
+  
+  <!-- Coffee Side -->
+  <rect x="430" y="80" width="320" height="350" fill="#FFF3E0" stroke="#FF9800" stroke-width="2"/>
+  <text x="590" y="110" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#E65100">
+    ☕ Coffee
+  </text>
+  
+  <text x="450" y="150" font-family="sans-serif" font-size="14" fill="#E65100">
+    • 95mg caffeine (rapid release)
+  </text>
+  <text x="450" y="180" font-family="sans-serif" font-size="14" fill="#E65100">
+    • 0mg L-theanine
+  </text>
+  <text x="450" y="210" font-family="sans-serif" font-size="14" fill="#E65100">
+    • 2-3 hours with spikes
+  </text>
+  <text x="450" y="240" font-family="sans-serif" font-size="14" fill="#E65100">
+    • Significant afternoon crash
+  </text>
+  <text x="450" y="270" font-family="sans-serif" font-size="14" fill="#E65100">
+    • Moderate antioxidants
+  </text>
+  
+  <!-- Energy Graph for Coffee -->
+  <path d="M 450 320 L 500 290 L 550 300 L 600 310 L 650 340 L 730 370" stroke="#FF9800" stroke-width="3" fill="none"/>
+  <text x="590" y="350" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">
+    Energy Spikes & Crashes
+  </text>
+  
+  <text x="400" y="470" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#888">
+    Experience the difference at our Koramangala location
+  </text>
+</svg>

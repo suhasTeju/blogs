@@ -1,0 +1,87 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="woodGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8D6E63;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5D4037;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F5F5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="tatami" x="0" y="0" width="40" height="80" patternUnits="userSpaceOnUse">
+      <rect width="40" height="80" fill="#D4B896"/>
+      <rect x="0" y="38" width="40" height="4" fill="#8D6E63"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#wallGradient)"/>
+  
+  <!-- Floor with tatami pattern -->
+  <rect x="0" y="280" width="800" height="120" fill="url(#tatami)"/>
+  
+  <!-- Low wooden table (chabudai) -->
+  <ellipse cx="400" cy="290" rx="120" ry="80" fill="#8D6E63"/>
+  <ellipse cx="400" cy="285" rx="120" ry="80" fill="#A1887F"/>
+  
+  <!-- Tea ceremony items on table -->
+  <!-- Chawan (tea bowl) -->
+  <ellipse cx="370" cy="275" rx="20" ry="12" fill="#4E342E"/>
+  <ellipse cx="370" cy="270" rx="18" ry="10" fill="#81C784"/>
+  
+  <!-- Chasen (bamboo whisk) -->
+  <rect x="420" y="265" width="3" height="20" fill="#8BC34A"/>
+  <rect x="425" y="265" width="3" height="20" fill="#8BC34A"/>
+  <rect x="430" y="265" width="3" height="20" fill="#8BC34A"/>
+  
+  <!-- Tea caddy (natsume) -->
+  <rect x="440" y="270" width="15" height="20" rx="7" fill="#D7CCC8"/>
+  
+  <!-- Water kettle -->
+  <circle cx="350" cy="280" r="15" fill="#37474F"/>
+  <rect x="345" y="270" width="4" height="8" fill="#37474F"/>
+  
+  <!-- Zabuton cushions -->
+  <ellipse cx="280" cy="320" rx="35" ry="20" fill="#8D6E63"/>
+  <ellipse cx="520" cy="320" rx="35" ry="20" fill="#8D6E63"/>
+  <ellipse cx="400" cy="350" rx="35" ry="20" fill="#8D6E63"/>
+  
+  <!-- Shoji window -->
+  <rect x="60" y="40" width="180" height="140" fill="#FFFDE7" stroke="#8D6E63" stroke-width="6"/>
+  <rect x="60" y="105" width="180" height="6" fill="#8D6E63"/>
+  <rect x="145" y="40" width="6" height="140" fill="#8D6E63"/>
+  
+  <!-- Garden view through window -->
+  <rect x="70" y="50" width="70" height="50" fill="#C8E6C9"/>
+  <rect x="155" y="50" width="70" height="50" fill="#C8E6C9"/>
+  <rect x="70" y="115" width="70" height="50" fill="#C8E6C9"/>
+  <rect x="155" y="115" width="70" height="50" fill="#C8E6C9"/>
+  
+  <!-- Bamboo plants in garden -->
+  <rect x="90" y="60" width="4" height="30" fill="#388E3C"/>
+  <rect x="100" y="65" width="4" height="25" fill="#388E3C"/>
+  <rect x="180" y="125" width="4" height="25" fill="#388E3C"/>
+  
+  <!-- Kakemono (hanging scroll) -->
+  <rect x="620" y="60" width="80" height="120" fill="#FFFDE7" stroke="#8D6E63" stroke-width="3"/>
+  <circle cx="660" cy="120" r="25" fill="none" stroke="#2E7D32" stroke-width="2"/>
+  <text x="660" y="128" text-anchor="middle" font-family="serif" font-size="16" fill="#2E7D32">茶</text>
+  
+  <!-- Ikebana flower arrangement -->
+  <rect x="500" y="190" width="8" height="40" fill="#8D6E63"/>
+  <circle cx="504" r="6" cy="185" fill="#E91E63"/>
+  <circle cx="508" r="4" cy="180" fill="#FF5722"/>
+  
+  <!-- Ambient lighting -->
+  <circle cx="150" cy="80" r="40" fill="#FFF9C4" opacity="0.3"/>
+  <circle cx="650" cy="100" r="50" fill="#FFF9C4" opacity="0.3"/>
+  
+  <!-- Text overlay -->
+  <text x="400" y="30" text-anchor="middle" font-family="serif" font-size="20" fill="#2E7D32" font-weight="bold">
+    Traditional Tea Ceremony Room
+  </text>
+  
+  <text x="400" y="390" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">
+    Authentic Japanese ambiance at Mocha and Matcha Cafe, Koramangala
+  </text>
+</svg>
